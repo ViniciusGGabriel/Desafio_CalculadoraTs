@@ -1,0 +1,91 @@
+:root {
+  /* Cores */
+  --cor-branca: #fff;
+  --cor-preta: #000;
+  --cor-cinza-claro: #f2f2f2;
+  --cor-cinza-medio: #e6e6e6;
+  --cor-cinza-escuro: #d9d9d9;
+  --cor-cinza-dark: #414040;
+  --cor-laranja: #ff8c00;
+  --cor-laranja-escuro: #ff6600;
+  --cor-verde: #008000;
+  --cor-verde-escuro: #006600;
+}
+
+body {
+  /* Display */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* Colors */
+  background-color: var(--cor-preta);
+}
+
+main {
+  /* Display */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* Colors */
+}
+
+table {
+  /* Display */
+  border: 5px solid var(--cor-cinza-medio);
+  /* Colors */
+  background-color: var(--cor-cinza-dark);
+}
+
+#visor {
+  /* Display */
+  height: 50px;
+  font-size: 24px;
+  text-align: right;
+  border: none;
+  margin-bottom: 10px;
+  /* Colors */
+  background-color: var(--cor-cinza-claro);
+}
+
+button {
+  /* Display */
+  width: 100%;
+  height: 50px;
+  font-size: 24px;
+  border: none;
+  /* Colors */
+  background-color: var(--cor-cinza-medio);
+}
+
+button:hover {
+  /* Colors */
+  background-color: var(--cor-cinza-escuro);
+}
+
+.operadores {
+  /* Colors */
+  background-color: var(--cor-laranja);
+  color: var(--cor-branca);
+}
+
+.operadores:hover {
+  /* Colors */
+  background-color: var(--cor-laranja-escuro);
+}
+
+#igual {
+  /* Colors */
+  background-color: var(--cor-verde);
+  color: var(--cor-branca);
+}
+
+#igual:hover {
+  /* Colors */
+  background-color: var(--cor-verde-escuro);
+}
+
+#zero {
+  /* Display */
+  width: 100%;
+}
